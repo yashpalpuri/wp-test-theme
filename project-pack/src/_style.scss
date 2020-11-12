@@ -1,0 +1,16 @@
+body {
+  background: $body-background-color !important;
+}
+
+.page-template-template-full-width {
+  padding-top: 0;
+
+  .post-inner {
+    padding-top: 0;
+  }
+
+  .entry-content > .alignwide:first-child, .entry-content > .alignfull:first-child {
+    margin: 0;
+  }
+}
+
